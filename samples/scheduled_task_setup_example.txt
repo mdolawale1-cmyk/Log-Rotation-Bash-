@@ -1,0 +1,4 @@
+✅ Scheduled task 'SystemAuditDaily' created to run daily at 9 AM.
+Script path: C:\Scripts\system_audit.ps1
+Trigger: Daily at 09:00
+Principal: SYSTEM (RunLevel Highest)
