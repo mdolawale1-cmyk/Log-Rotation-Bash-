@@ -1,0 +1,27 @@
+=== System Audit Report (2026-07-02 01:15:00) ===
+
+--- Operating System ---
+Caption                Version    OSArchitecture   LastBootUpTime
+Microsoft Windows 11   10.0.22621 64-bit           2026-07-01 08:42:15
+
+--- CPU ---
+Name                                NumberOfCores   MaxClockSpeed
+Intel(R) Core(TM) i7-9750H CPU      6               2600
+
+--- Memory ---
+Manufacturer   Capacity (GB)   Speed (MHz)
+Samsung        16              2666
+
+--- Disk Drives ---
+DeviceID   Size (GB)   FreeSpace (GB)
+C:         512         120
+D:         1024        850
+
+--- Services ---
+Name                Status    StartType
+Spooler             Running   Automatic
+W32Time             Running   Manual
+WinDefend           Stopped   Automatic
+SQLServerAgent      Running   Automatic
+
+Audit complete. Report saved to system_audit_report.txt
