@@ -1,0 +1,23 @@
+=== Database Health Checks (2026-07-02 01:45:00) ===
+
+--- Long-Running Queries (> 5 min) ---
+pid   usename   application_name   state   query_start          query
+1234  appuser   web_app            active  2026-07-02 01:35:00  SELECT * FROM orders WHERE status='pending';
+
+--- Largest Tables ---
+table_name   total_size
+orders       15 GB
+customers    8 GB
+transactions 6 GB
+
+--- Database Connections & Deadlocks ---
+datname     numbackends   deadlocks   conflicts
+myappdb     25            0           2
+postgres    5             0           0
+
+--- Replication Lag ---
+client_addr   state   write_lag   flush_lag   replay_lag
+10.0.0.12     streaming   0 ms       0 ms        50 ms
+10.0.0.13     streaming   0 ms       0 ms        0 ms
+
+Audit complete. Results saved to db_health_checks.sql
