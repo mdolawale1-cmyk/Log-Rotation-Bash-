@@ -105,4 +105,10 @@ See the `samples/` folder for example outputs:
 - [Scheduled Task Setup Output](https://github.com/mdolawale1-cmyk/Log-Rotation-Bash-/blob/main/samples/scheduled_task_setup_example.txt) → Windows scheduled task creation details  
 - [System Audit Report](https://github.com/mdolawale1-cmyk/Log-Rotation-Bash-/blob/main/samples/system_audit_example.txt) → Example audit of system resources and configurations  
 
+## 📖 Documentation
+For a visual overview of the repository workflow, see the Mermaid diagram in:  
+[docs/README_visuals.md](https://github.com/mdolawale1-cmyk/Log-Rotation-Bash-/blob/main/docs/README_visuals.md)
+
+This diagram illustrates how the different modules — backup, database, incident response, monitoring, network, security, utilities, Windows, and reporting — connect together to form a complete reliability toolkit.
+
 
