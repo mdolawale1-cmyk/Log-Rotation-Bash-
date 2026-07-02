@@ -4,6 +4,15 @@ A cross‑platform **system reliability toolkit** for automating log rotation, m
 
 ---
 
+## 🏷️ Badges
+![Bash](https://img.shields.io/badge/Shell-Bash-blue)
+![PowerShell](https://img.shields.io/badge/PowerShell-Windows-green)
+![SQL](https://img.shields.io/badge/SQL-Database-orange)
+![Automation](https://img.shields.io/badge/Automation-Enabled-success)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+---
+
 ## 🚀 Features
 - **[Log rotation](ca://s?q=Log_rotation_Bash_script)** → Automated cleanup and compression of system/application logs.  
 - **[Monitoring](ca://s?q=Performance_metrics_collector_Bash_script)** → Collect CPU, memory, disk, and network metrics.  
@@ -14,7 +23,7 @@ A cross‑platform **system reliability toolkit** for automating log rotation, m
 ---
 
 ## 📂 Repository Structure (Files & Folders)
-```bash
+```text
 Log-Rotation-Bash-/
 │
 ├── README.md                  # Project overview
@@ -72,4 +81,3 @@ Log-Rotation-Bash-/
     ├── scheduled_task_setup.ps1
     ├── system_audit.ps1
     └── system_resource_dashboard.ps1
-```
