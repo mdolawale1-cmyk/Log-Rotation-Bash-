@@ -106,9 +106,10 @@ See the `samples/` folder for example outputs:
 - [System Audit Report](https://github.com/mdolawale1-cmyk/Log-Rotation-Bash-/blob/main/samples/system_audit_example.txt) → Example audit of system resources and configurations  
 
 ## 📖 Documentation
-For a visual overview of the repository workflow, see the Mermaid diagram in:  
-[docs/README_visuals.md](https://github.com/mdolawale1-cmyk/Log-Rotation-Bash-/blob/main/docs/README_visuals.md)
+For a visual overview of the repository workflow, see the **Repository Workflow Diagram**:  
+[Repository Workflow Diagram (docs/README_visuals.md)](https://github.com/mdolawale1-cmyk/Log-Rotation-Bash-/blob/main/docs/README_visuals.md)
 
-This diagram illustrates how the different modules — backup, database, incident response, monitoring, network, security, utilities, Windows, and reporting — connect together to form a complete reliability toolkit.
+This diagram illustrates how the different modules — Backup, Database, Incident Response, Monitoring, Network, Security, Utilities, Windows, and Reporting — connect together to form a complete reliability toolkit.
+
 
 
