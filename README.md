@@ -142,6 +142,19 @@ For a visual overview of the repository workflow, see the **Repository Workflow 
 
 This diagram illustrates how the different modules — Backup, Database, Incident Response, Monitoring, Network, Security, Utilities, Windows, and Reporting — connect together to form a complete reliability toolkit.
 ```
+## Mermaid Workflow Diagram
+```mermaid
+flowchart TD
+    A[Backup] --> B[Database]
+    B --> C[Monitoring]
+    C --> D[Incident Response]
+    D --> E[Network Checks]
+    E --> F[Security Monitoring]
+    F --> G[Reporting Dashboards]
+    G --> H[Utilities]
+    H --> I[Windows Scripts]
+
+
 ## 🔮 Future Enhancements
 Planned improvements to extend functionality and integration:
 
