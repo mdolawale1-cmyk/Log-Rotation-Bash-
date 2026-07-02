@@ -162,7 +162,7 @@ flowchart TD
     style F fill:#FFA07A,stroke:#333,stroke-width:2px,color:#000
     style G fill:#40E0D0,stroke:#333,stroke-width:2px,color:#000
     style H fill:#B0C4DE,stroke:#333,stroke-width:2px,color:#000
-    style I fill:#98FB98,stroke:#333,stroke-width:2px,color:#000
+    style I fill:#7FFFD4,stroke:#333,stroke-width:2px,color:#000
 
 ```
 ```mermaid
