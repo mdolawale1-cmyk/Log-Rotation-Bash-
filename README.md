@@ -119,7 +119,26 @@ See the `samples/` folder for example outputs:
 
 ## 📖 Documentation
 For a visual overview of the repository workflow, see the **Repository Workflow Diagram**:  
-[Repository Workflow Diagram ](https://github.com/mdolawale1-cmyk/Log-Rotation-Bash-/blob/main/docs/README_visuals.md)
+[Repository Workflow Diagram](https://github.com/mdolawale1-cmyk/Log-Rotation-Bash-/blob/main/docs/README_visuals.md)
+
+### Text‑Based Workflow Diagram
+```text
++----------------+       +----------------+       +----------------+
+|    Backup      | --->  |   Database     | --->  |   Monitoring   |
++----------------+       +----------------+       +----------------+
+        |                        |                        |
+        v                        v                        v
++----------------+       +----------------+       +----------------+
+|   Incident     | --->  |   Network      | --->  |   Security     |
+|   Response     |       |   Checks       |       |   Monitoring   |
++----------------+       +----------------+       +----------------+
+        |                        |                        |
+        v                        v                        v
++----------------+       +----------------+       +----------------+
+|   Reporting    | --->  |   Utilities    | --->  |   Windows      |
+|   Dashboards   |       |   Scripts      |       |   Scripts      |
++----------------+       +----------------+       +----------------+
+
 
 This diagram illustrates how the different modules — Backup, Database, Incident Response, Monitoring, Network, Security, Utilities, Windows, and Reporting — connect together to form a complete reliability toolkit.
 
