@@ -153,7 +153,7 @@ flowchart TD
     F --> G[Reporting Dashboards]
     G --> H[Utilities]
     H --> I[Windows Scripts]
-
+```
 
 ## 🔮 Future Enhancements
 Planned improvements to extend functionality and integration:
