@@ -156,10 +156,10 @@ flowchart TD
 ```
 ```mermaid
 flowchart LR
-    L1[log_rotation.sh] --> L2[log_merger.sh] --> L3[html_dashboard_generator.sh]
-    M1[performance_metrics_collector.sh] --> G[Grafana/Prometheus Export]
-    W1[system_resource_dashboard.ps1] --> W2[html_dashboard_generator.ps1]
-    DB[db_health_checks.sql] --> R[Database Health Report]
+    L1[Log Rotation Script] --> L2[Log Merger Script] --> L3[HTML Dashboard Generator]
+    M1[Performance Metrics Collector] --> G[Grafana/Prometheus Export]
+    W1[Windows System Resource Dashboard] --> W2[Windows HTML Dashboard Generator]
+    DB[Database Health Checks] --> R[Database Health Report]
 ```
 
 ## 🔮 Future Enhancements
