@@ -207,7 +207,7 @@ Make sure your code follows existing style conventions and includes relevant tes
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
-- Inspired by Linux system reliability practices  
-- Uses standard Bash and PowerShell utilities  
-- Thanks to open‑source contributors for monitoring and automation ideas
+- Inspired by Linux system reliability practices.  
+- Uses standard Bash and PowerShell utilities.  
+- Thanks to open‑source contributors for monitoring and automation ideas.
 
