@@ -191,4 +191,16 @@ Planned improvements to extend functionality and integration:
 - **Grafana & Prometheus Dashboards** → Connect monitoring scripts to Grafana/Prometheus for advanced visualization and metrics tracking.  
 - **Cross‑Platform Monitoring Expansion** → Extend support for both Linux and Windows environments, with additional scripts for macOS.  
 
+## 🤝 Contributing
+Contributions are welcome!  
+Please fork the repository, create a feature branch, and submit a pull request.  
+For major changes, open an issue first to discuss what you’d like to improve.
+
+## 🧾 License
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+- Inspired by Linux system reliability practices  
+- Uses standard Bash and PowerShell utilities  
+- Thanks to open‑source contributors for monitoring and automation ideas
 
