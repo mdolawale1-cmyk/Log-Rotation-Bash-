@@ -94,3 +94,12 @@ On Windows:
 pwsh windows/system_resource_dashboard.ps1
 pwsh windows/html_dashboard_generator.ps1
 ```
+## 📑 Samples
+See the `samples/` folder for example outputs:
+
+- **system_dashboard_example.html** → HTML dashboard output  
+- **log_merger_example.txt** → Unified logs  
+- **email_notifier_example.txt** → Daily summary  
+- **incident_response_example.txt** → Incident tracking  
+- **db_health_checks_example.txt** → SQL health check results  
+
