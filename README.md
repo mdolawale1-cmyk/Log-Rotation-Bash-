@@ -81,3 +81,16 @@ Log-Rotation-Bash-/
     ├── scheduled_task_setup.ps1
     ├── system_audit.ps1
     └── system_resource_dashboard.ps1
+```
+## ⚙️ Usage
+Run scripts directly from their folders:
+```bash
+bash utilities/log_rotation.sh
+bash monitoring/performance_metrics_collector.sh
+bash reporting/html_dashboard_generator.sh
+```
+On Windows:
+```powershell
+pwsh windows/system_resource_dashboard.ps1
+pwsh windows/html_dashboard_generator.ps1
+```
