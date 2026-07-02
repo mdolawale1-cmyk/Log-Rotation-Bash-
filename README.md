@@ -14,6 +14,7 @@ A cross‑platform **system reliability toolkit** for automating log rotation, m
 ---
 
 ## 🧩 Repository Structure
+```
 utilities/
   ├── log_rotation.sh
   ├── log_merger.sh
