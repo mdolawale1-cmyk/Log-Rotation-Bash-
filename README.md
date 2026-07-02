@@ -15,27 +15,39 @@ A cross‑platform **system reliability toolkit** for automating log rotation, m
 
 ## 📂 Repository Structure (Files & Folders)
 ```bash
-utilities/
-  ├── log_rotation.sh
-  ├── log_merger.sh
-  ├── email_notifier.sh
-monitoring/
-  ├── performance_metrics_collector.sh
-network/
-  ├── network_latency_monitor.sh
-incident/
-  ├── service_uptime_tracker.sh
-windows/
-  ├── scheduled_task_setup.ps1
-  ├── html_dashboard_generator.ps1
-reporting/
-  ├── html_dashboard_generator.sh
-docs/
-  ├── README_visuals.md
-samples/
-  ├── system_dashboard_example.html
-  ├── log_merger_example.txt
-  ├── email_notifier_example.txt
-  ├── scheduled_task_setup_example.txt
-  ├── README_visuals_example.md
+Log-Rotation-Bash-/
+│
+├── README.md                  # Project overview
+│
+├── utilities/                 # System maintenance scripts
+│   ├── log_rotation.sh        # Rotates and compresses logs
+│   ├── log_merger.sh          # Merges multiple logs into one report
+│   ├── email_notifier.sh      # Sends daily system health summaries
+│
+├── monitoring/                # Performance monitoring
+│   ├── performance_metrics_collector.sh
+│
+├── network/                   # Network checks
+│   ├── network_latency_monitor.sh
+│
+├── incident/                  # Incident response
+│   ├── service_uptime_tracker.sh
+│
+├── reporting/                 # Reporting and dashboards
+│   ├── html_dashboard_generator.sh
+│
+├── windows/                   # PowerShell scripts for Windows
+│   ├── scheduled_task_setup.ps1
+│   ├── html_dashboard_generator.ps1
+│
+├── docs/                      # Documentation and visuals
+│   ├── README_visuals.md      # Mermaid diagrams and repo visuals
+│
+└── samples/                   # Example outputs
+    ├── system_dashboard_example.html
+    ├── log_merger_example.txt
+    ├── email_notifier_example.txt
+    ├── scheduled_task_setup_example.txt
+    ├── README_visuals_example.md
+
 ```
