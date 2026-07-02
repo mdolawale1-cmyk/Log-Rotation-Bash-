@@ -171,6 +171,17 @@ flowchart LR
     M1[Performance Metrics Collector] --> G[Grafana/Prometheus Export]
     W1[Windows System Resource Dashboard] --> W2[Windows HTML Dashboard Generator]
     DB[Database Health Checks] --> R[Database Health Report]
+
+    style L1 fill:#FFD700,stroke:#333,stroke-width:2px,color:#000
+    style L2 fill:#FF7F50,stroke:#333,stroke-width:2px,color:#000
+    style L3 fill:#90EE90,stroke:#333,stroke-width:2px,color:#000
+    style M1 fill:#87CEFA,stroke:#333,stroke-width:2px,color:#000
+    style G fill:#DA70D6,stroke:#333,stroke-width:2px,color:#000
+    style W1 fill:#FFA07A,stroke:#333,stroke-width:2px,color:#000
+    style W2 fill:#40E0D0,stroke:#333,stroke-width:2px,color:#000
+    style DB fill:#B0C4DE,stroke:#333,stroke-width:2px,color:#000
+    style R fill:#7FFFD4,stroke:#333,stroke-width:2px,color:#000
+
 ```
 
 ## 🔮 Future Enhancements
