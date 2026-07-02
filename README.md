@@ -14,23 +14,26 @@ A cross‑platform **system reliability toolkit** for automating log rotation, m
 ---
 
 ## 🧩 Repository Structure
-```mermaid
-graph TD
-A[Backup] --> B[Database]
-B --> C[Incident]
-C --> D[Monitoring]
-D --> E[Network]
-E --> F[Security]
-F --> G[Utilities]
-G --> H[Windows]
-H --> I[Reporting]
-
-style A fill:#f9d71c,stroke:#333,stroke-width:1px
-style B fill:#ff9f1c,stroke:#333,stroke-width:1px
-style C fill:#2ec4b6,stroke:#333,stroke-width:1px
-style D fill:#cbf3f0,stroke:#333,stroke-width:1px
-style E fill:#e71d36,stroke:#333,stroke-width:1px
-style F fill:#ffbf69,stroke:#333,stroke-width:1px
-style G fill:#9b5de5,stroke:#333,stroke-width:1px
-style H fill:#00bbf9,stroke:#333,stroke-width:1px
-style I fill:#00f5d4,stroke:#333,stroke-width:1px
+utilities/
+  ├── log_rotation.sh
+  ├── log_merger.sh
+  ├── email_notifier.sh
+monitoring/
+  ├── performance_metrics_collector.sh
+network/
+  ├── network_latency_monitor.sh
+incident/
+  ├── service_uptime_tracker.sh
+windows/
+  ├── scheduled_task_setup.ps1
+  ├── html_dashboard_generator.ps1
+reporting/
+  ├── html_dashboard_generator.sh
+docs/
+  ├── README_visuals.md
+samples/
+  ├── system_dashboard_example.html
+  ├── log_merger_example.txt
+  ├── email_notifier_example.txt
+  ├── scheduled_task_setup_example.txt
+  ├── README_visuals_example.md
