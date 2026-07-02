@@ -153,6 +153,17 @@ flowchart TD
     F --> G[Reporting Dashboards]
     G --> H[Utilities]
     H --> I[Windows Scripts]
+
+    style A fill:#FFD700,stroke:#333,stroke-width:2px,color:#000
+    style B fill:#FF7F50,stroke:#333,stroke-width:2px,color:#000
+    style C fill:#90EE90,stroke:#333,stroke-width:2px,color:#000
+    style D fill:#87CEFA,stroke:#333,stroke-width:2px,color:#000
+    style E fill:#DA70D6,stroke:#333,stroke-width:2px,color:#000
+    style F fill:#FFA07A,stroke:#333,stroke-width:2px,color:#000
+    style G fill:#40E0D0,stroke:#333,stroke-width:2px,color:#000
+    style H fill:#B0C4DE,stroke:#333,stroke-width:2px,color:#000
+    style I fill:#98FB98,stroke:#333,stroke-width:2px,color:#000
+
 ```
 ```mermaid
 flowchart LR
