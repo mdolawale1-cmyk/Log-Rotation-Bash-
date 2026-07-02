@@ -111,5 +111,11 @@ For a visual overview of the repository workflow, see the **Repository Workflow 
 
 This diagram illustrates how the different modules — Backup, Database, Incident Response, Monitoring, Network, Security, Utilities, Windows, and Reporting — connect together to form a complete reliability toolkit.
 
+## 🔮 Future Enhancements
+Planned improvements to extend functionality and integration:
+
+- **Slack Alerts Integration** → Send real‑time incident notifications to Slack or Microsoft Teams channels.  
+- **Grafana & Prometheus Dashboards** → Connect monitoring scripts to Grafana/Prometheus for advanced visualization and metrics tracking.  
+- **Cross‑Platform Monitoring Expansion** → Extend support for both Linux and Windows environments, with additional scripts for macOS.  
 
 
