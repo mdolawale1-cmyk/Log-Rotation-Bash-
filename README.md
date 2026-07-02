@@ -82,6 +82,18 @@ Log-Rotation-Bash-/
     ├── system_audit.ps1
     └── system_resource_dashboard.ps1
 ```
+## 📥 Installation
+Prerequisites:
+- Linux or Windows environment
+- Bash shell (Linux/macOS) or PowerShell (Windows)
+- SQL client (for database health checks)
+
+Clone the repository:
+```bash
+git clone https://github.com/mdolawale1-cmyk/Log-Rotation-Bash-.git
+cd Log-Rotation-Bash-
+
+
 ## ⚙️ Usage
 Run scripts directly from their folders:
 ```bash
