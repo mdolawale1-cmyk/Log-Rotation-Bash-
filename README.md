@@ -97,9 +97,12 @@ pwsh windows/html_dashboard_generator.ps1
 ## 📑 Samples
 See the `samples/` folder for example outputs:
 
-- **system_dashboard_example.html** → HTML dashboard output  
-- **log_merger_example.txt** → Unified logs  
-- **email_notifier_example.txt** → Daily summary  
-- **incident_response_example.txt** → Incident tracking  
-- **db_health_checks_example.txt** → SQL health check results  
+- [System Dashboard Report](https://github.com/mdolawale1-cmyk/Log-Rotation-Bash-/blob/main/samples/system_dashboard_example.html) → Example HTML dashboard showing system health metrics  
+- [Unified Log Report](https://github.com/mdolawale1-cmyk/Log-Rotation-Bash-/blob/main/samples/log_merger_example.txt) → Combined logs from multiple sources  
+- [Daily Email Summary](https://github.com/mdolawale1-cmyk/Log-Rotation-Bash-/blob/main/samples/email_notifier_example.txt) → Automated email notification with system status  
+- [Incident Response Log](https://github.com/mdolawale1-cmyk/Log-Rotation-Bash-/blob/main/samples/incident_response_example.txt) → Recorded incident alerts and responses  
+- [Database Health Check Report](https://github.com/mdolawale1-cmyk/Log-Rotation-Bash-/blob/main/samples/db_health_checks_example.txt) → SQL script output for database health validation  
+- [Scheduled Task Setup Output](https://github.com/mdolawale1-cmyk/Log-Rotation-Bash-/blob/main/samples/scheduled_task_setup_example.txt) → Windows scheduled task creation details  
+- [System Audit Report](https://github.com/mdolawale1-cmyk/Log-Rotation-Bash-/blob/main/samples/system_audit_example.txt) → Example audit of system resources and configurations  
+
 
