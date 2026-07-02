@@ -37,3 +37,4 @@ samples/
   ├── email_notifier_example.txt
   ├── scheduled_task_setup_example.txt
   ├── README_visuals_example.md
+```
