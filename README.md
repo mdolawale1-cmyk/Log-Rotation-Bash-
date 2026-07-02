@@ -192,9 +192,16 @@ Planned improvements to extend functionality and integration:
 - **Cross‑Platform Monitoring Expansion** → Extend support for both Linux and Windows environments, with additional scripts for macOS.  
 
 ## 🤝 Contributing
-Contributions are welcome!  
-Please fork the repository, create a feature branch, and submit a pull request.  
-For major changes, open an issue first to discuss what you’d like to improve.
+We welcome contributions that improve functionality, documentation, or examples.  
+To contribute:
+
+1. **Fork the repository** and create your own copy.  
+2. **Create a feature branch** for your changes (`git checkout -b feature-name`).  
+3. **Commit your updates** with clear messages.  
+4. **Push to your branch** and open a pull request.  
+
+For significant changes, please open an issue first to discuss your ideas.  
+Make sure your code follows existing style conventions and includes relevant tests or sample outputs.
 
 ## 🧾 License
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
